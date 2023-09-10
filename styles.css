@@ -1,0 +1,196 @@
+/*Global styles*/
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-weight: 400;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*End of global*/
+/*items styles menagment*/
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items {
+    flex-wrap: wrap;
+    display: flex;
+    width: 450px;
+    height: 305px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 15px 3px rgba(0,0,0,0.1);
+    flex-direction: row;
+}
+/*End of items styles */
+/*Left item styles*/
+.item-left {
+    width: 170px;
+    height: 80%;
+    border-radius: 30px;
+    background: radial-gradient(circle at top , hsl(263, 66%, 55%), hsl(241, 81%, 54%)) ;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 30px 28px;
+}
+.top-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.59);
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    color: white;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background: radial-gradient( hsl(256, 85%, 33%), hsla(240, 100%, 0%, 0));
+
+}
+.score {
+    margin: 0;
+    padding: 30px 30px 0;
+    font-size: 40px;
+}
+.outof {
+    font-size: 11px;
+    opacity: 0.5;
+}
+.bottom-text{
+    color: white;
+    line-height: 12px;
+}
+.bottom-text h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.bottom-text span {
+    font-size: 11px;
+    opacity: 0.6;
+}
+.item-right {
+    width: 170px;
+    height: 80%;
+    border-radius: 30px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 25px 32px;
+}
+.summary-text {
+    margin-top: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: hsl(224, 30%, 27%);
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+li {
+    display: block;
+
+    list-style: none;
+    font-size: 11px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 7px;
+}
+ul {
+    width: 1000px;
+    padding: 0;
+
+}
+.inlidiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 6px 10px 7px;
+    font-weight: bold;
+}
+img {
+    width: 15px;
+    padding-right: 10px;
+}
+.icon {
+    position: relative;
+    top: 1px;
+}
+.s{
+    vertical-align: middle;
+}
+.text{
+    font-size: 11px;
+    position: relative;
+    bottom: 2px;
+}
+.num {
+    color: hsl(224, 30%, 27%);
+    position: relative;
+    top: 2px;
+}
+.num2 {
+    opacity: 0.6;
+}
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    color:hsl(39, 100%, 56%);
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+.reali{
+    background: hsla(0, 100%, 67%, 0.12);
+}
+.memli {
+    background: hsla(39, 100%, 56%, 0.12);
+}
+.verli {
+    background: hsla(166, 100%, 37%, 0.12);
+}
+.visli {
+    background: hsla(234, 85%, 45%, 0.12);
+}
+.continue {
+    width: 100%;
+    height: 35px;
+    background: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.continue:hover {
+    background: radial-gradient(circle at top , hsl(263, 66%, 55%), hsl(241, 81%, 54%));
+
+}
